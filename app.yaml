@@ -1,0 +1,9 @@
+runtime: go1.11
+
+env: flex
+
+env_variables:
+  REDIS_URL: redis://10.0.0.3:6379
+
+network:
+  name: default
